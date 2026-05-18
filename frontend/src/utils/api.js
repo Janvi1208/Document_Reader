@@ -1,3 +1,5 @@
+import axios from "axios";
+
 const api = axios.create({
   baseURL: "https://document-reader-backend.onrender.com/api",
   timeout: 120000,
